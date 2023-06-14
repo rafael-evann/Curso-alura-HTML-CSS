@@ -40,22 +40,39 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.apresentacao__links{
-    display: flex;
-    justify-content:space-between;
+.apresentacao__de__minhas__redes {
+    font-family: 'Krona One', 'sans-serif';
+    font-weight: 400;
+    font-size: 24px;
+
 }
 
-.apresentacao__links__link{
-    background-color: #22D4FD;
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link {
+    /* background-color: #22D4FD; mudando o butão e tirando sua cor de fundo */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #22D4FD;
     text-align: center;
     width: 280px;
-    border-radius: 16px;
-    font-size:24px;
+    border-radius: 8px;
+    font-size: 24px;
     padding: 21.5px 0;
     font-weight: 600;
-    color: black;
+    color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-      
+
 }
 
+.apresentacao__links__link:hover {
+    background-color: #272727;
+}
